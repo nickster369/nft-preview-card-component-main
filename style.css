@@ -1,0 +1,31 @@
+html, body, .bodyContainer {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: var(--mainBG);
+}
+
+.bodyContainer {
+  width: 18rem;
+  height: 32rem;
+  background-color: var(--cardBG);
+  border-radius: 20px;
+}
+
+:root {
+  --primarySoftBlue: hsl(215, 51%, 70%);
+  --primaryCyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
