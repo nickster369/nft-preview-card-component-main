@@ -17,6 +17,7 @@ body {
   height: 500px;
   background-color: var(--cardBG);
   border-radius: 20px;
+  box-shadow: 4px 24px 9px 15px rgba(0, 0, 0, 0.1);
 }
 
 .allTheContent {
@@ -30,31 +31,35 @@ body {
   width: 100%;
   transition: opacity 0.5s ease-in-out;
   border-radius: 10px;
+
 }
 
 .topContainer:hover {
   opacity: 0.5;
   cursor: pointer;
-
+  border-radius: 10px;
 }
 
 .hoverIcon {
-  position: absolute;
-  top: 38%;
-  left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  top: 40%; /* Change from 38% to 50% */
+  left: 50%; /* Change from 50% to 50% */
+
 
 }
 
 .topContainer:hover .hoverIcon {
   opacity: 1;
+
 }
 
 .overlay:hover {
   opacity: 0.8;
   background-color: var(--primaryCyan);
+  border-radius: 10px;
 }
 
 
