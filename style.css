@@ -45,8 +45,8 @@ body {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   position: absolute;
-  top: 40%; /* Change from 38% to 50% */
-  left: 50%; /* Change from 50% to 50% */
+  top: 40%;
+  left: 50%;
 
 
 }
