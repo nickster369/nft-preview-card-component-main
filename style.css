@@ -2,8 +2,6 @@ html, body, .bodyContainer {
   margin: 0;
   padding: 0;
   font-family: Outfit, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
 }
 
 body {
@@ -15,10 +13,120 @@ body {
 }
 
 .bodyContainer {
-  width: 18rem;
-  height: 32rem;
+  width: 300px;
+  height: 500px;
   background-color: var(--cardBG);
   border-radius: 20px;
+}
+
+.allTheContent {
+  padding: 20px 20px;
+}
+
+.topContainer {
+  background: url("./images/image-equilibrium.jpg") no-repeat center center;
+  background-size: cover;
+  height: 15rem;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.topContainer:hover {
+  opacity: 0.5;
+  cursor: pointer;
+
+}
+
+.hoverIcon {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+.topContainer:hover .hoverIcon {
+  opacity: 1;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+  background-color: var(--primaryCyan);
+}
+
+
+.middleContainer > h1 {
+  font-size: 20px;
+  color: var(--white);
+  padding-top: 10px;
+}
+
+.middleContainer > h1:hover {
+  color: var(--primaryCyan);
+  cursor: pointer;
+}
+
+.middleContainer > p {
+  font-weight: 300;
+  color: var(--primarySoftBlue);
+  font-size: 16px;
+
+}
+
+#middleWidget {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px;
+
+}
+
+
+#middleLeft {
+  color: var(--primaryCyan);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#middleRight {
+  color: var(--primarySoftBlue);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.bottomContainer {
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.bottomLeftImg > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid var(--white);
+}
+
+.bottomRightText {
+  font-size: 14px;
+}
+
+#firstPart {
+  color: var(--primarySoftBlue);
+}
+
+#secondPart {
+  color: var(--white);
+}
+
+#secondPart:hover {
+  color: var(--primaryCyan);
+  cursor: pointer;
 }
 
 :root {
