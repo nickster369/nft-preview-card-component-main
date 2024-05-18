@@ -1,15 +1,20 @@
 html, body, .bodyContainer {
   margin: 0;
   padding: 0;
+}
+
+h1, p {
   font-family: Outfit, sans-serif;
 }
 
 body {
+
   height: 100vh;
   justify-content: center;
   display: flex;
   align-items: center;
   background-color: var(--mainBG);
+
 }
 
 .bodyContainer {
@@ -19,6 +24,7 @@ body {
   border-radius: 20px;
   box-shadow: 4px 24px 9px 15px rgba(0, 0, 0, 0.1);
   position: fixed;
+
 }
 
 .allTheContent {
@@ -68,6 +74,7 @@ body {
   font-size: 20px;
   color: var(--white);
   padding-top: 10px;
+  font-weight: 600;
 }
 
 .middleContainer > h1:hover {
@@ -92,14 +99,16 @@ body {
 
 #middleLeft {
   color: var(--primaryCyan);
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
+
 }
 
 #middleRight {
   color: var(--primarySoftBlue);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
+
 }
 
 .bottomContainer {
@@ -120,6 +129,7 @@ body {
 
 .bottomRightText {
   font-size: 14px;
+  font-weight: 600;
 }
 
 #firstPart {
@@ -128,6 +138,7 @@ body {
 
 #secondPart {
   color: var(--white);
+  font-weight: 300;
 }
 
 #secondPart:hover {
